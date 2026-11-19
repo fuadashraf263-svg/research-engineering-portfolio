@@ -42,7 +42,15 @@ npm run lint
 - `lib/computational.ts` — implicit gyroid SDF, meshing, STL generation, mesh rendering, computational evidence
 - `tests/engine.test.ts` — deterministic and rejection-path tests
 - `examples/` — supported example specifications
+- `artifacts/ED-PL-001_REV-A.svg` — the original SVG drawing exported from the running application on November 20, 2026
+- `artifacts/ED-PL-001_REV-A.png` — a high-resolution PNG preview rendered from that SVG for viewing and sharing
 - `docs/computational-engineering-architecture.md` — path from MVP to LEAP 71-class computational engineering
+
+## Exported sample drawing
+
+The included mounting-plate SVG shows the default 120 × 80 × 10 mm plate, four 8 mm holes, 15 mm offsets, R5 corners, and the selected 6061-T6 aluminum material. The running interface reported 11 machine checks passed, zero failed, and zero warnings. These checks cover drawing parameters and template boundaries only. The drawing is not engineer-approved or qualified for manufacture.
+
+![EngiDraw mounting-plate drawing preview](artifacts/ED-PL-001_REV-A.png)
 
 ## Accuracy boundary
 

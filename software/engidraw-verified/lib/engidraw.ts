@@ -492,13 +492,13 @@ function renderNotes(spec: EngineeringSpec, projection: string): string {
 function renderTitleBlock(spec: EngineeringSpec, hash: string): string {
   return `<g id="title-block" transform="translate(720 720)">
     <rect width="448" height="100" class="object"/>
-    <path d="M0 32h448M0 70h448M292 0v100M360 0v100M108 70v30M210 70v30" class="thin"/>
+    <path d="M0 32h448M0 70h448M292 0v100M414 0v70M108 70v30M210 70v30" class="thin"/>
     <text x="12" y="21" class="txt view">ENGIDRAW VERIFIED</text>
     <text x="304" y="20" class="txt small validation">✓ MACHINE VALIDATED</text>
     <text x="12" y="56" class="txt" style="font-size:18px;font-weight:700">${xml(spec.name)}</text>
     <text x="300" y="49" class="txt small">DRAWING NO.</text><text x="300" y="64" class="mono">${xml(spec.drawingNumber)}</text>
-    <text x="370" y="49" class="txt small">REV</text><text x="386" y="64" class="mono">${xml(spec.revision)}</text>
-    <text x="10" y="84" class="txt small">STANDARD</text><text x="10" y="96" class="mono small">${xml(spec.standard)}</text>
+    <text x="417" y="49" class="txt small">REV</text><text x="429" y="64" class="mono">${xml(spec.revision)}</text>
+    <text x="10" y="84" class="txt small">STANDARD</text><text x="10" y="96" class="mono small">${spec.standard === 'ASME-Y14.5-2018-R2024' ? 'ASME Y14.5' : 'ISO 128'}</text>
     <text x="116" y="84" class="txt small">UNITS</text><text x="116" y="96" class="mono small">${spec.units}</text>
     <text x="218" y="84" class="txt small">SCALE</text><text x="218" y="96" class="mono small">AUTO</text>
     <text x="300" y="84" class="txt small">SPEC HASH</text><text x="300" y="96" class="mono small">${hash.slice(0, 14).toUpperCase()}</text>
