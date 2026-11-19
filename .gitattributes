@@ -3,3 +3,6 @@
 /research/crfce-c13-nx-r13a/C089363__R13A_Technical_Annex.pdf -text
 /software/sert-urtm-bounded-verification/original/** -text
 /software/shaft-witness-source/original/** -text
+/software/engineering-question-generator/source/** -text
+/software/engineering-question-generator/data/engineering_questions.csv -text
+/software/engineering-question-generator/data/engineering_questions.jsonl.gz -text
