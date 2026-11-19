@@ -1,0 +1,14 @@
+{
+  "partType": "shaft",
+  "name": "STEPPED SHAFT",
+  "drawingNumber": "ED-SH-001",
+  "revision": "A",
+  "units": "mm",
+  "standard": "ASME-Y14.5-2018-R2024",
+  "material": "AISI 4140 STEEL",
+  "segments": [
+    { "length": 30, "diameter": 30 },
+    { "length": 80, "diameter": 45 },
+    { "length": 30, "diameter": 30 }
+  ]
+}

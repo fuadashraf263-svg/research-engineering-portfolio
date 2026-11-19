@@ -1,0 +1,15 @@
+{
+  "partType": "flange",
+  "name": "BOLT FLANGE",
+  "drawingNumber": "ED-FL-001",
+  "revision": "A",
+  "units": "mm",
+  "standard": "ISO-128-2022",
+  "material": "AISI 1045 STEEL",
+  "outerDiameter": 160,
+  "boreDiameter": 60,
+  "thickness": 18,
+  "boltCircleDiameter": 120,
+  "boltHoleDiameter": 12,
+  "boltCount": 8
+}

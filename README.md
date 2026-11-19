@@ -8,7 +8,7 @@ Proposals, plans, dossiers, and working manuscripts are research-stage material.
 
 ## Software context
 
-These source files are authentic excerpts from larger projects. For full project context, see [EngineAI Studio](https://github.com/fuadashraf263-svg/engineai-studio) and [Axiomata Reference Compiler](https://github.com/fuadashraf263-svg/axiomata-reference-compiler). The CRFCE research scripts are provided as standalone original files.
+These source files are authentic excerpts from larger projects. For full project context, see [EngineAI Studio](https://github.com/fuadashraf263-svg/engineai-studio), [Axiomata Reference Compiler](https://github.com/fuadashraf263-svg/axiomata-reference-compiler), and the complete [EngiDraw Verified application source](software/engidraw-verified/README.md). The CRFCE research scripts are provided as standalone original files.
 
 ## Original artifacts
 
@@ -53,3 +53,10 @@ This snapshot adds **50 original files** preserved byte-for-byte: 18 Python sour
 - [Figures (PNG and SVG)](research/crfce-source-pack-2026-10/figures/)
 
 Evidence boundary: calculations are virtual or analytical unless a specific independent measurement is cited. The drawings are concepts, not manufacturing documents. Physical validation is not demonstrated. CRFCE, the R5-C PM motor, and the 8/6 SRM surrogate are separate configurations; results must not be merged across them. SHA-256 checksums for the added files are recorded in `SHA256SUMS.txt`.
+
+## EngiDraw Verified software snapshot (August 2026)
+
+- [Complete application source](software/engidraw-verified/) — 85 public source/configuration/example/test files from the original project, with its private hosting file omitted and documented in the publication notes.
+- [Publication notes](software/engidraw-verified/PUBLICATION_NOTES.md) explain the private hosting configuration omitted from this public copy and what was changed for a self-contained source snapshot.
+
+The application describes its own validation boundary: automated checks do not establish engineering safety, code compliance, manufacturability, or physical performance. The publication copy was not rebuilt or tested as part of this upload.

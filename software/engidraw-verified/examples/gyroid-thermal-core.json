@@ -1,0 +1,16 @@
+{
+  "modelType": "gyroid-thermal-core",
+  "name": "GYROID THERMAL CORE",
+  "drawingNumber": "ED-CEM-001",
+  "revision": "A",
+  "units": "mm",
+  "standard": "ISO-128-2022",
+  "width": 60,
+  "depth": 60,
+  "height": 40,
+  "cellSize": 15,
+  "wallThickness": 3,
+  "resolution": 20,
+  "material": "AlSi10Mg",
+  "process": "LASER POWDER BED FUSION"
+}

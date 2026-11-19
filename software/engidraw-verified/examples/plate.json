@@ -1,0 +1,16 @@
+{
+  "partType": "plate",
+  "name": "MOUNTING PLATE",
+  "drawingNumber": "ED-PL-001",
+  "revision": "A",
+  "units": "mm",
+  "standard": "ASME-Y14.5-2018-R2024",
+  "material": "6061-T6 ALUMINUM",
+  "width": 120,
+  "height": 80,
+  "thickness": 10,
+  "cornerRadius": 5,
+  "holeDiameter": 8,
+  "edgeX": 15,
+  "edgeY": 15
+}
