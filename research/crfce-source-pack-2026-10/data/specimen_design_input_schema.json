@@ -1,0 +1,53 @@
+{
+  "purpose": "Research design input contract for a future specimen-specific torque-ripple study",
+  "status": "not a manufacturing drawing; geometry and runtime are not frozen",
+  "topology": {
+    "phases": 4,
+    "stator_poles": 8,
+    "rotor_poles": 6,
+    "source_status": "literature surrogate"
+  },
+  "required_geometry": [
+    "stator/rotor tooth arcs",
+    "stack length",
+    "air-gap",
+    "shaft and bearing spans",
+    "winding turns and polarity"
+  ],
+  "required_materials": [
+    "B-H or flux-linkage map",
+    "copper resistance versus temperature",
+    "magnet data if PM-assisted variant",
+    "lamination loss data"
+  ],
+  "required_drive": [
+    "DC-link voltage",
+    "switching law",
+    "dead time",
+    "phase resistance",
+    "current limit",
+    "demagnetization capability"
+  ],
+  "required_measurement": [
+    "calibrated torque",
+    "angle/resolver",
+    "phase currents",
+    "phase voltage",
+    "speed",
+    "temperature",
+    "channel delay and uncertainty"
+  ],
+  "current_virtual_limits": {
+    "current_cap_A": 50,
+    "voltage_screen_abs_V": 500,
+    "angle_grid_points": 720
+  },
+  "acceptance_gates": [
+    "authenticated runtime and model bundle",
+    "scoped consent",
+    "one-use admitted job",
+    "immutable receipt",
+    "independent review",
+    "calibrated physical correlation"
+  ]
+}

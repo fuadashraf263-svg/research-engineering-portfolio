@@ -43,3 +43,13 @@ These source files are authentic excerpts from larger projects. For full project
 - [CRFCE research conformance checks](software/crfce/crfce_research_conformance.py) — source code; conformance checks.
 
 The IELTS Academic scorecard is published separately as a redacted image in the [profile repository](https://github.com/fuadashraf263-svg/fuadashraf263-svg/blob/main/credentials/IELTS_Academic_Public_Redacted.png).
+
+## CRFCE torque-ripple source snapshot (October 2026)
+
+This snapshot adds **50 original files** preserved byte-for-byte: 18 Python source/conformance files and 4 design/evidence references (22 source files total), plus 6 CSV/JSON data files, and 11 figures in both PNG and SVG formats. It is a research and engineering portfolio artifact, not a validated product or safety-qualified design.
+
+- [Source and design references](research/crfce-source-pack-2026-10/source/)
+- [Data tables and input schema](research/crfce-source-pack-2026-10/data/)
+- [Figures (PNG and SVG)](research/crfce-source-pack-2026-10/figures/)
+
+Evidence boundary: calculations are virtual or analytical unless a specific independent measurement is cited. The drawings are concepts, not manufacturing documents. Physical validation is not demonstrated. CRFCE, the R5-C PM motor, and the 8/6 SRM surrogate are separate configurations; results must not be merged across them. SHA-256 checksums for the added files are recorded in `SHA256SUMS.txt`.

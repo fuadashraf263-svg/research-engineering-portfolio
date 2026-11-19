@@ -1,0 +1,25 @@
+target_Nm,strategy,mean_Nm,ripple_pct,effort_A2,evidence_class
+2.0,Square,2.0,73.724,17.848,recorded computational result
+2.0,Square plus 5 A,2.0,73.724,123.637,recorded computational result
+2.0,Smooth sharing,2.0,1.1e-08,12.252,recorded computational result
+2.0,Biased sine 5 A,2.0,40.625,100.97,recorded computational result
+5.0,Square,5.0,73.724,49.466,recorded computational result
+5.0,Square plus 5 A,5.0,73.724,162.533,recorded computational result
+5.0,Smooth sharing,5.0,6.17e-09,34.32,recorded computational result
+5.0,Biased sine 5 A,5.0,41.122,106.152,recorded computational result
+10.0,Square,10.0,73.724,111.898,recorded computational result
+10.0,Square plus 5 A,10.0,73.724,236.189,recorded computational result
+10.0,Smooth sharing,10.0,3.59e-09,78.735,recorded computational result
+10.0,Biased sine 5 A,10.0,43.161,126.098,recorded computational result
+20.0,Square,20.0,73.724,269.973,recorded computational result
+20.0,Square plus 5 A,20.0,73.724,416.593,recorded computational result
+20.0,Smooth sharing,20.0,2.28e-09,194.609,recorded computational result
+20.0,Biased sine 5 A,nan,nan,nan,recorded computational result
+40.0,Square,40.0,73.724,724.347,recorded computational result
+40.0,Square plus 5 A,40.0,73.724,921.128,recorded computational result
+40.0,Smooth sharing,40.0,1.31e-09,545.478,recorded computational result
+40.0,Biased sine 5 A,nan,nan,nan,recorded computational result
+75.0,Square,75.0,73.724,2067.507,recorded computational result
+75.0,Square plus 5 A,75.0,73.724,2382.73,recorded computational result
+75.0,Smooth sharing,75.0,7.12e-10,1679.637,recorded computational result
+75.0,Biased sine 5 A,nan,nan,nan,recorded computational result

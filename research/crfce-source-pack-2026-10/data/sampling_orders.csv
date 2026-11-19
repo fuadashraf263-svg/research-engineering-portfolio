@@ -1,0 +1,4 @@
+quantity,frequency_Hz,minimum_Nyquist_Sps,4x_screen_Sps,evidence_class
+mechanical 1x at 16000 rpm,266.667,533.334,1066.668,arithmetic
+4 pole-pair electrical,1066.667,2133.334,4266.668,arithmetic
+slot/order 48,12800.0,25600.0,51200.0,arithmetic

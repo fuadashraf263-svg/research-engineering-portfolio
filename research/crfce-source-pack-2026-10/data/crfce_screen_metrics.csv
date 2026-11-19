@@ -1,0 +1,5 @@
+case,a,b,c,d,metric_or_unit
+smooth_20Nm,52.101,381.65,-959.97,500.0,zero-resistance trajectory screen
+power_350Nm_16000rpm,16000,350,586.431,arithmetic power_kW,envelope consistency check
+power_180kW_16000rpm,16000,180,107.43,arithmetic torque_Nm,envelope consistency check
+gap_near_practical,100000,0.1268,0.599,1.0779,Monte Carlo gap p01/p50/p99 mm
