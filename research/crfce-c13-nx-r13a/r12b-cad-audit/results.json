@@ -1,0 +1,202 @@
+{
+  "method": "CAD source inspection + idealized analytic bounds, NOT nonlinear electromagnetic FEM",
+  "source_cad": {
+    "source_step_path": "/mnt/data/C13_NX_executed_screen/C13_NX_trial_solid_locations.step",
+    "total_solids": 58,
+    "moving_islands_count": 4,
+    "moving_island_dimensions_mm": [
+      12,
+      4,
+      28
+    ],
+    "moving_island_centers_x_mm": [
+      -28.0,
+      -8.0,
+      12.0,
+      32.0
+    ],
+    "cell_pitch_mm": [
+      20.0,
+      20.0,
+      20.0
+    ],
+    "moving_island_single_face_area_mm2": 1344.0,
+    "upper_pole_blocks_count": 4,
+    "lower_pole_blocks_count": 4,
+    "coil_bar_solids_count": 32,
+    "coil_bar_cross_section_mm2": 1.0,
+    "coil_bar_interpretation": "idealized placeholder; eight 36-turn packed windings NOT present",
+    "moving_carrier_rails_count": 2,
+    "central_magnetic_blocks_count": 4,
+    "nominal_gap_top_mm": 1.5,
+    "nominal_gap_bottom_mm": 1.5,
+    "geometry_bbox_mm": {
+      "x": [
+        -40.0,
+        40.0
+      ],
+      "y": [
+        -13.5,
+        13.5
+      ],
+      "z": [
+        -20.0,
+        20.0
+      ]
+    }
+  },
+  "field_stress_conditional_area_cases": [
+    {
+      "case": "R11_assumed_area",
+      "active_face_m2": 0.008,
+      "shear_Pa": 109922.5,
+      "normal_pressure_Pa": 459875.0,
+      "Bn_T": 1.0826224434643572,
+      "Bt_T": 0.1275908219154127,
+      "B_combined_T": 1.090115027384627,
+      "B_traction_only_min_T": 0.5256095269031749
+    },
+    {
+      "case": "CAD_4_islands_one_face",
+      "active_face_m2": 0.001344,
+      "shear_Pa": 654300.5952380953,
+      "normal_pressure_Pa": 2737351.1904761908,
+      "Bn_T": 2.641328303881464,
+      "Bt_T": 0.3112897310370358,
+      "B_combined_T": 2.6596083368673744,
+      "B_traction_only_min_T": 1.2823559391181307
+    },
+    {
+      "case": "conditional_two_faces",
+      "active_face_m2": 0.002688,
+      "shear_Pa": 327150.29761904763,
+      "normal_pressure_Pa": 1368675.5952380954,
+      "Bn_T": 1.867701155014545,
+      "Bt_T": 0.22011507973002448,
+      "B_combined_T": 1.8806270902991962,
+      "B_traction_only_min_T": 0.9067625804452737
+    },
+    {
+      "case": "historical_250cm2_assumed_area",
+      "active_face_m2": 0.025,
+      "shear_Pa": 35175.2,
+      "normal_pressure_Pa": 147160.0,
+      "Bn_T": 0.6124237369907174,
+      "Bt_T": 0.07217626831484265,
+      "B_combined_T": 0.616662182509623,
+      "B_traction_only_min_T": 0.2973296485835904
+    }
+  ],
+  "winding_screens": [
+    {
+      "case": "reduced_model_I_rms",
+      "I_rms_A": 7.8182478855559445,
+      "I_peak_A": 13.5,
+      "J_design_A_mm2": 5,
+      "mode": "actual 4+9.5 cos waveform, RMS copper design",
+      "turns": 36,
+      "fill_fraction": 0.6,
+      "required_copper_cross_section_per_turn_mm2": 1.563649577111189,
+      "required_winding_pack_area_mm2": 93.81897462667133,
+      "pack_area_vs_one_mm2_placeholder": 93.81897462667133,
+      "total_idealized_conductor_length_per_circuit_m": 2.3040000000000003,
+      "rho_80C_ohm_m": 2.1305192000000003e-08,
+      "R_80C_ohm": 0.03139268739399243,
+      "copper_loss_per_circuit_W": 1.9188780169577873,
+      "copper_loss_8_circuits_W": 15.351024135662298,
+      "copper_mass_8_circuits_kg": 0.25823785348760836,
+      "NI_peak_ampere_turns": 486.0,
+      "ideal_two_gap_B_from_NI_peak_T": 0.20357520395261858
+    },
+    {
+      "case": "peak_13p5_as_continuous",
+      "I_rms_A": 13.5,
+      "I_peak_A": 13.5,
+      "J_design_A_mm2": 5,
+      "mode": "conservative continuous DC 13.5 A screening",
+      "turns": 36,
+      "fill_fraction": 0.6,
+      "required_copper_cross_section_per_turn_mm2": 2.7,
+      "required_winding_pack_area_mm2": 162.0,
+      "pack_area_vs_one_mm2_placeholder": 162.0,
+      "total_idealized_conductor_length_per_circuit_m": 2.3040000000000003,
+      "rho_80C_ohm_m": 2.1305192000000003e-08,
+      "R_80C_ohm": 0.01818043050666667,
+      "copper_loss_per_circuit_W": 3.3133834598400003,
+      "copper_loss_8_circuits_W": 26.507067678720002,
+      "copper_mass_8_circuits_kg": 0.445906944,
+      "NI_peak_ampere_turns": 486.0,
+      "ideal_two_gap_B_from_NI_peak_T": 0.20357520395261858
+    },
+    {
+      "case": "peak_150_sinusoidal",
+      "I_rms_A": 106.06601717798212,
+      "I_peak_A": 150,
+      "J_design_A_mm2": 5,
+      "mode": "hypothetical 150 A peak sinusoidal current",
+      "turns": 36,
+      "fill_fraction": 0.6,
+      "required_copper_cross_section_per_turn_mm2": 21.213203435596423,
+      "required_winding_pack_area_mm2": 1272.7922061357854,
+      "pack_area_vs_one_mm2_placeholder": 1272.7922061357854,
+      "total_idealized_conductor_length_per_circuit_m": 2.3040000000000003,
+      "rho_80C_ohm_m": 2.1305192000000003e-08,
+      "R_80C_ohm": 0.0023139910253078618,
+      "copper_loss_per_circuit_W": 26.03239903471344,
+      "copper_loss_8_circuits_W": 208.2591922777075,
+      "copper_mass_8_circuits_kg": 3.5033758208952226,
+      "NI_peak_ampere_turns": 5400,
+      "ideal_two_gap_B_from_NI_peak_T": 2.2619467105846507
+    },
+    {
+      "case": "150_continuous",
+      "I_rms_A": 150,
+      "I_peak_A": 150,
+      "J_design_A_mm2": 5,
+      "mode": "hypothetical continuous DC 150 A",
+      "turns": 36,
+      "fill_fraction": 0.6,
+      "required_copper_cross_section_per_turn_mm2": 30.0,
+      "required_winding_pack_area_mm2": 1800.0,
+      "pack_area_vs_one_mm2_placeholder": 1800.0,
+      "total_idealized_conductor_length_per_circuit_m": 2.3040000000000003,
+      "rho_80C_ohm_m": 2.1305192000000003e-08,
+      "R_80C_ohm": 0.0016362387456000007,
+      "copper_loss_per_circuit_W": 36.81537177600001,
+      "copper_loss_8_circuits_W": 294.5229742080001,
+      "copper_mass_8_circuits_kg": 4.9545216000000005,
+      "NI_peak_ampere_turns": 5400,
+      "ideal_two_gap_B_from_NI_peak_T": 2.2619467105846507
+    }
+  ],
+  "prior_reduced_model_120mm2_pack": {
+    "source_of_120_mm2": "reduced C13 full-period model; NOT actual STEP solids",
+    "assumed_pack_mm2": 120,
+    "turns": 36,
+    "fill_fraction": 0.6,
+    "real_copper_area_per_turn_mm2": 2.0,
+    "waveform_I_rms_A": 7.8182478855559445,
+    "resulting_J_rms_A_mm2": 3.9091239427779723,
+    "R80_ohm": 0.024543581184000008,
+    "copper_loss_8_circuits_W": 12.001811198976004
+  },
+  "gap_dominated_MMF_check": {
+    "gap_mm_each": 1.5,
+    "gaps_in_series": 2,
+    "R11_target_Bn_T": 1.0826224434643572,
+    "R11_two_gap_required_NI_At": 2584.570700693677,
+    "36x13p5A_max_NI_At": 486.0,
+    "36x13p5A_gap_only_B_T": 0.20357520395261858,
+    "field_ratio_R11_target_to_coil_only_bound": 5.318046709246249
+  },
+  "verification_status": {
+    "STEP_geometry_read": "PASS: 58 source solids counted and classified",
+    "CAD_winding_conductor_realism": "FAIL: actual 1x1mm placeholders incompatible with 36-turn pack",
+    "R11_8000mm2_face_traced_to_CAD": "FAIL: only 1344 mm\u00b2 per nominal island face",
+    "converged_nonlinear_3D_field": "OPEN: material-specific B-H / actual conductor solids / validated solver absent",
+    "independent_support_control_matrix": "OPEN",
+    "full_period_real_propulsion_work": "OPEN",
+    "coupled_thermal_structural_braking": "OPEN",
+    "whole_engine_virtual_proof": "NOT ACHIEVED"
+  }
+}

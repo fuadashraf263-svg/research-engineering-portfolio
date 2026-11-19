@@ -1,0 +1,75 @@
+{
+  "mesh": [
+    {
+      "n": 10,
+      "h": 0.1,
+      "total": 0.5,
+      "physical_window": 0.15000000000000002,
+      "naive_sum": 2.0,
+      "fraction": 0.30000000000000004
+    },
+    {
+      "n": 20,
+      "h": 0.05,
+      "total": 0.5000000000000001,
+      "physical_window": 0.15000000000000002,
+      "naive_sum": 3.0,
+      "fraction": 0.3
+    },
+    {
+      "n": 40,
+      "h": 0.025,
+      "total": 0.5,
+      "physical_window": 0.15000000000000002,
+      "naive_sum": 6.0,
+      "fraction": 0.30000000000000004
+    },
+    {
+      "n": 80,
+      "h": 0.0125,
+      "total": 0.49999999999999994,
+      "physical_window": 0.15000000000000002,
+      "naive_sum": 12.0,
+      "fraction": 0.3000000000000001
+    },
+    {
+      "n": 160,
+      "h": 0.00625,
+      "total": 0.49999999999999994,
+      "physical_window": 0.15000000000000002,
+      "naive_sum": 24.0,
+      "fraction": 0.3000000000000001
+    }
+  ],
+  "truss": [
+    {
+      "alive": "0,1,2",
+      "stiffness": 3,
+      "sum_member_thresholds_not_system_capacity": 0.9,
+      "force_control_displacement": 0.16666666666666666,
+      "stable_at_P05": true
+    },
+    {
+      "alive": "1,2",
+      "stiffness": 2,
+      "sum_member_thresholds_not_system_capacity": 0.7,
+      "force_control_displacement": 0.25,
+      "stable_at_P05": true
+    },
+    {
+      "alive": "2",
+      "stiffness": 1,
+      "sum_member_thresholds_not_system_capacity": 0.4,
+      "force_control_displacement": 0.5,
+      "stable_at_P05": false
+    },
+    {
+      "alive": "",
+      "stiffness": 0,
+      "sum_member_thresholds_not_system_capacity": 0,
+      "force_control_displacement": null,
+      "stable_at_P05": false
+    }
+  ],
+  "released_energy_per_failed_member_at_u02": 0.02
+}

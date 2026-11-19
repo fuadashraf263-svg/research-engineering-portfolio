@@ -1,0 +1,15 @@
+{
+  "max_abs_Fx_N": 0.011669544333281158,
+  "mean_Fx_N": 0.002255917176225503,
+  "Wmechanical_J_per_80mm": 0.00018047337409804026,
+  "max_abs_Fy_at_centerline_N": 2.710505431213761e-16,
+  "vertical_stiffness_Kyy_N_per_m_min": 3.7955086565455245,
+  "vertical_stiffness_Kyy_N_per_m_max": 8.372511520256449,
+  "min_support_force_current_derivative_N_per_A": 0.001247145153697503,
+  "median_support_force_current_derivative_N_per_A": 0.0019222180127794282,
+  "min_two_axis_J_singular_value_N_per_A": 0.00018474186189697763,
+  "positions_with_rank_below_1e_minus5": 0,
+  "max_delta_support_current_A_for_0p05mm_deflection": 0.18356974437298157,
+  "median_delta_support_current_A_for_0p05mm_deflection": 0.16304027298987187,
+  "observations": "This normal stiffness is magnetic-only and about midplane; structural stiffness, feedback and dynamic stability not solved. Singular values depend on choice of ampere control normalization. Model has no self-consistent iron feedback; field lacks magnetic local return solids."
+}

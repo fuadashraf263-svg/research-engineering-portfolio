@@ -1,0 +1,54 @@
+{
+  "description": "3D Biot-Savart physical-coil + distributed saturating local magnetic-polarization surrogate; NOT nonlinear 3D FEM; does NOT model Maxwell stress self-consistently, eddy losses, material anisotropy, or moving material field",
+  "pitch_m": 0.08,
+  "best_phase_offset_rad": 2.7052603405912103,
+  "phase_scan_points": 73,
+  "speed_m_s": 27.77777777777778,
+  "coils_total": 8,
+  "turns_each": 36,
+  "winding_loop_interior_mm": [
+    12,
+    20
+  ],
+  "coil_offsets_y_mm": [
+    -13,
+    13
+  ],
+  "magnetic_islands_count": 4,
+  "island_dims_mm": [
+    12,
+    4,
+    28
+  ],
+  "max_abs_current_A": 13.498553103985717,
+  "mean_current_rms_A": 7.818181452103025,
+  "wire_area_mm2": 2.0,
+  "resistance_per_coil_ohm_80C": 0.024543581184000008,
+  "iron_phenomenological_Ms_A_per_m": 1300000.0,
+  "iron_Bs_T": 0.6,
+  "mean_Fx_N": 7.275450028619875e-08,
+  "min_Fx_N": -0.008523020716597296,
+  "max_Fx_N": 0.008523298605798492,
+  "mean_abs_Fy_N": 4.8908569075620206e-17,
+  "max_abs_Fy_N": 1.8070036208091741e-16,
+  "Wmechanical_per_80mm_J": 5.8203600228959e-09,
+  "E_source_increment_iron_J": 8.057958245018612e-09,
+  "delta_U_iron_J": 2.2533114685122438e-09,
+  "energy_residual_J": -1.5713246389532343e-11,
+  "E_copper_J_per_80mm_8_coils": 0.03456521625305089,
+  "P_copper_W": 12.001811198976002,
+  "boundary_Wprime_difference_J": 2.2535620108291715e-09,
+  "max_end_current_difference_A": 5.329070518200751e-15,
+  "min_support_control_singular_value_N_per_A": 5.897805213028618e-09,
+  "max_support_control_singular_value_N_per_A": 0.0014705941737420958,
+  "vertical_displacement_from_only_em_force_at_1MNperm_max_mm": 1.8070036208091741e-19,
+  "vehicle_traction_requirement_N": 879.38,
+  "vehicle_work_per_80mm_J": 70.35,
+  "remarks": [
+    "Source field from finite rectangular current loops and 4-subfilament conductor cross-section; geometrical winding packs are a separate assumption, not a realizable finished coil CAD.",
+    "Moving ferromagnetic islands represented by local saturating polarization energy with no field feedback; this can seriously overpredict force and is not a validated steel law.",
+    "No Newton/Maxwell-stress cross-check; no convergence in geometry/material/mesh; rank here is reduced-model diagnostic only.",
+    "Full-period electromagnetic source power includes only island-induced incremental linkage and copper loss; self/mutual air-source field energy is omitted, though period boundary cancels it for an exact periodic solution.",
+    "E_copper accounts eight local coils only, periodic source array and full vehicle scale not accounted."
+  ]
+}

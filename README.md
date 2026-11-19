@@ -60,3 +60,23 @@ Evidence boundary: calculations are virtual or analytical unless a specific inde
 - [Publication notes](software/engidraw-verified/PUBLICATION_NOTES.md) explain the private hosting configuration omitted from this public copy and what was changed for a self-contained source snapshot.
 
 The application describes its own validation boundary: automated checks do not establish engineering safety, code compliance, manufacturability, or physical performance. The publication copy was not rebuilt or tested as part of this upload.
+
+## C13-NX current-envelope audit (November 2026)
+
+- [Original source-screen files and R13-A annex](research/crfce-c13-nx-r13a/) — finite-coil source model, recorded outputs, figures, and an independent current-envelope falsification audit. The findings are limited to a sampled surrogate; the annex explicitly says the physical machine is not proven and the source-only traction gate fails.
+
+## SERT / URTM bounded verification (November 2026)
+
+- [Original Python/NumPy reference sample](software/sert-urtm-bounded-verification/) — a one-dimensional mesh-localization patch test and parallel-member removal baseline. The report distinguishes mathematical/numerical checks from empirical fracture validation.
+
+## C13-NX current-envelope audit (November 2026)
+
+- [Original source-screen files, CAD audit, and R13-A annex](research/crfce-c13-nx-r13a/) — finite-coil source model, recorded outputs, figures, trial CAD, and an independent current-envelope falsification audit. The findings are limited to a sampled surrogate; the annex explicitly says the physical machine is not proven and the source-only traction gate fails.
+
+## SERT / URTM bounded verification (November 2026)
+
+- [Original Python/NumPy reference sample](software/sert-urtm-bounded-verification/) — a one-dimensional mesh-localization patch test and parallel-member removal baseline. The report distinguishes mathematical/numerical checks from empirical fracture validation.
+
+## Shaft Witness source sample (October 2026)
+
+- [Original source and protocol files](software/shaft-witness-source/) — phase-agreement prototype, replay runners, plans, tests, and validators. Paderborn raw data and data-derived results are excluded from this copy under the source dataset's CC BY-NC 4.0 terms.

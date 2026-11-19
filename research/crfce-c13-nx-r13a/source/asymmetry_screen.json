@@ -1,0 +1,74 @@
+{
+  "uniform": {
+    "fill_fractions_scaled": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "mean_traction_N": 7.301669263861707e-08,
+    "work_J_80mm": 5.8413354110893655e-09,
+    "peak_N": 0.008523299599052571,
+    "best_phase_rad": 2.7488935718910685
+  },
+  "graded_0p6_to_1p4": {
+    "fill_fractions_scaled": [
+      0.6,
+      0.8,
+      1.2,
+      1.4
+    ],
+    "mean_traction_N": 0.0005640122143230972,
+    "work_J_80mm": 4.512097714584777e-05,
+    "peak_N": 0.011936805203063493,
+    "best_phase_rad": 2.356194490192345
+  },
+  "alternating": {
+    "fill_fractions_scaled": [
+      0.6,
+      1.4,
+      0.6,
+      1.4
+    ],
+    "mean_traction_N": 0.002255917176225503,
+    "work_J_80mm": 0.00018047337409804023,
+    "peak_N": 0.011669544333281158,
+    "best_phase_rad": 2.356194490192345
+  },
+  "asymmetric_1": {
+    "fill_fractions_scaled": [
+      0.4,
+      1.0,
+      1.3,
+      1.3
+    ],
+    "mean_traction_N": 0.0008459947846754538,
+    "work_J_80mm": 6.76795827740363e-05,
+    "peak_N": 0.012225677721541123,
+    "best_phase_rad": -0.7853981633974483
+  },
+  "single_island": {
+    "fill_fractions_scaled": [
+      0,
+      0,
+      0,
+      4
+    ],
+    "mean_traction_N": 0.005640085235181035,
+    "work_J_80mm": 0.0004512068188144828,
+    "peak_N": 0.02911284909660703,
+    "best_phase_rad": 2.356194490192345
+  },
+  "one_small": {
+    "fill_fractions_scaled": [
+      1.2,
+      1.2,
+      1.2,
+      0.4
+    ],
+    "mean_traction_N": 0.0011280151878983234,
+    "work_J_80mm": 9.024121503186587e-05,
+    "peak_N": 0.011680177560128823,
+    "best_phase_rad": 0.7853981633974483
+  }
+}

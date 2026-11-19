@@ -1,0 +1,26 @@
+[
+  {
+    "n_intervals": 120,
+    "W_mech_J": 0.00018047337409804026,
+    "E_magnetic_source_J": 0.00018144967614796946,
+    "Delta_U_J": 2.4943166888500776e-09,
+    "energy_residual_J": 9.738077332403523e-07,
+    "residual_fraction_of_copper_energy": 2.8173054845442582e-05
+  },
+  {
+    "n_intervals": 60,
+    "W_mech_J": 0.00018049261053107655,
+    "E_magnetic_source_J": 0.00018120101313137438,
+    "Delta_U_J": 2.4943166888500776e-09,
+    "energy_residual_J": 7.059082836089836e-07,
+    "residual_fraction_of_copper_energy": 2.0422504475079513e-05
+  },
+  {
+    "n_intervals": 30,
+    "W_mech_J": 0.00018053107418621866,
+    "E_magnetic_source_J": 0.0001802084048211202,
+    "Delta_U_J": 2.4943166888500776e-09,
+    "energy_residual_J": -3.2516368178730245e-07,
+    "residual_fraction_of_copper_energy": -9.407251481005292e-06
+  }
+]
