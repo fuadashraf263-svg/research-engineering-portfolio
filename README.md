@@ -23,6 +23,7 @@ Selected engineering software, computational research, and original project mate
 - [Maglev car research paper](research/maglev-car-research-paper.pdf) and [maglev wheel research proposal](research/maglev-wheel-research-proposal.pdf)
 - [Physics Foundry research proposal](research/physics-foundry-research-proposal.pdf)
 - [Torque Ripple research proposal](research/torque-ripple-research-proposal.pdf)
+- [Torque Ripple current-effort public core manuscript](research/torque-ripple/Torque_Ripple_Current_Effort_Public_Core_v1.pdf) — the original 318-page computational research core, with internal audit appendices removed or redacted; it does not claim physical motor validation. See the [release note](research/torque-ripple/README.md).
 - [Warm Matter Computing research proposal](research/warm-matter-computing-proposal.pdf)
 - [SERT / URTM research proposal](research/sert-urtm-proposal.pdf)
 - [Mechanical Wave research proposal](research/mechanical-wave-proposal.pdf)
