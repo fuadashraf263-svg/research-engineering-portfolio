@@ -1,0 +1,60 @@
+{
+  "model": "VECTORONE XR wing-box / load-spreading joint coupon",
+  "status": "printable geometry candidate; untested; not a flight component",
+  "scale": "1:5 structural cell study",
+  "source_inputs": {
+    "wing_area_m2": 14.0,
+    "wingspan_m": 13.0,
+    "root_moment_Nm": 40600.0,
+    "cap_force_N": 178000.0,
+    "bay_mm": 200.0,
+    "stiffener_pitch_mm": 40.0
+  },
+  "derived_coupon_dimensions_mm": {
+    "mean_chord": 215.385,
+    "implied_cap_separation": 45.618,
+    "bay_length": 40.0,
+    "stiffener_pitch": 8.0
+  },
+  "print_assumptions_mm": {
+    "wall": 1.2,
+    "rib": 1.2,
+    "shear_web": 1.2,
+    "test_pin_diameter": 3.0,
+    "test_pin_bore": 3.6,
+    "cap_bridge_thickness": 1.6
+  },
+  "assembly_envelope_mm": {
+    "x": 80.0,
+    "y": 215.385,
+    "z": 52.018
+  },
+  "full_scale_implied_cap_separation_m": 0.22809,
+  "similarity_load_reference_only": {
+    "root_moment_at_1_to_5_Nm": 324.8,
+    "cap_force_at_1_to_5_N": 7120.0,
+    "note": "Not a prescribed bench load; polymer/material and print anisotropy are not correlated to the full-scale claim."
+  },
+  "scope_limits": [
+    "No material strength is claimed.",
+    "No pin fit is validated; use the existing fit coupon before a full print.",
+    "The coupon tests joint geometry and load transfer only; it does not prove aircraft-scale strength.",
+    "The full-scale moment and cap force are unverified board values."
+  ],
+  "print_parts": [
+    "cap-bridge-bottom-front",
+    "cap-bridge-bottom-rear",
+    "cap-bridge-top-front",
+    "cap-bridge-top-rear",
+    "lock-pin-bottom-front-left",
+    "lock-pin-bottom-front-right",
+    "lock-pin-bottom-rear-left",
+    "lock-pin-bottom-rear-right",
+    "lock-pin-top-front-left",
+    "lock-pin-top-front-right",
+    "lock-pin-top-rear-left",
+    "lock-pin-top-rear-right",
+    "wingbox-cell-left",
+    "wingbox-cell-right"
+  ]
+}

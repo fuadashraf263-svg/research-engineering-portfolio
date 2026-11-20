@@ -10,6 +10,7 @@ Selected engineering software, computational research, and original project mate
 - [CRFCE C13-NX/R13-A audit](research/crfce-c13-nx-r13a/) — source-only electrical-engineering screen, trial CAD audit, figures, and technical annex. The conclusion is limited to the sampled surrogate; physical-machine performance is not proven.
 - [SERT / URTM bounded verification](software/sert-urtm-bounded-verification/) — original reference code and a bounded numerical patch test; this does not establish empirical fracture validation.
 - [Shaft Witness source sample](software/shaft-witness-source/) — original prototype and replay tools. Restricted third-party bearing data and derived results are excluded; see its README for the data-license boundary.
+- [VectorOne XR source artifact release](research/vectorone-xr-source-release/) — 50 original CAD, Python, Lean, JSON, design-basis, and figure files with SHA-256 hashes and explicit concept-stage validation limits.
 
 ## Research-stage documents
 
