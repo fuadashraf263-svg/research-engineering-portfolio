@@ -33,6 +33,8 @@ Selected engineering software, computational research, and original project mate
 - [Redacted IELTS Academic scorecard](https://github.com/fuadashraf263-svg/fuadashraf263-svg/blob/main/credentials/IELTS_Academic_Public_Redacted.png)
 - [Redacted Duolingo English Test report](https://github.com/fuadashraf263-svg/fuadashraf263-svg/blob/main/credentials/Duolingo_English_Test_Public_Redacted.png)
 
+- [N006 CPython source-line audit](research/n006-cpython-audit/) — five original records documenting a bounded and model-level refinement investigation, with its open C/runtime proof boundary explicitly stated.
+
 ## File integrity and research status
 
 SHA-256 values for the preserved source files and documents are listed in [`SHA256SUMS.txt`](SHA256SUMS.txt). Generated files are identified in their project notes. Research proposals and working manuscripts are independent research-stage materials, not peer-reviewed publications. Unless a specific measurement is cited, calculated engineering results are analytical or simulated; drawings are concepts, not manufacturing instructions.
